@@ -290,8 +290,8 @@ footer {
 
 .box {
     width: 45%;
-    height: 20%;
     padding: 30px;
+    margin-bottom: 30px;
     border: 1px solid black;
     background: whitesmoke;
 }
