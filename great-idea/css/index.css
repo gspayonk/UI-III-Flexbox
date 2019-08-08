@@ -303,8 +303,14 @@ footer {
     color: black;
 }
 
-.ffacts {
+.facts {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ffacts {
+    display: inline-flex;
     flex-direction: column;
     width: 45%;
 }
@@ -312,10 +318,13 @@ footer {
 ul {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 15px;
 }
 
-.ffacts.services-info-img {
+.services-info-img {
+    float: right;
     width: 45%;
+    height: 80%;
+    margin-top: 0px;
 }
